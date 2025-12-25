@@ -7,7 +7,7 @@ const ServiceOfferings = () => {
       title: '12 HOUR STARTUP LAUNCH',
       description: 'Turn your idea into a functional, market-ready Minimum Viable Product (MVP) in HOURS, not months. Focus on core features, swift iteration, and user validation.',
       price: 'Starting from ₹25,000',
-      features: ['Core Feature Implementation', 'User Authentication', 'Firebade Integration', 'Responsive Design', 'Github & Vercel Setup','Brand Identity & Visuals Design','12 Hour Delivery']
+      features: ['Core Feature Implementation', 'User Authentication', 'Firebase Integration', 'Responsive Design', 'Github & Vercel Setup','Brand Identity & Visuals Design','12 Hour Delivery']
     },
     {
       id: 2,
