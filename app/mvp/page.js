@@ -7,6 +7,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Hero />
       <ServiceOfferings />
+      <ForgeProcess/>
       <WhatsAppCTA />
     </main>
   );
