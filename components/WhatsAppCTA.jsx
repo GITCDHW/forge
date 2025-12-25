@@ -1,9 +1,10 @@
 import React from 'react';
 
 const WhatsAppCTA = () => {
-  // It's crucial to prefix environment variables with NEXT_PUBLIC_ for client-side access in Next.js
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '1234567890'; // Default for development/fallback
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '9728725259';
+  
   const whatsappMessage = encodeURIComponent("Hello FORGE! I'm interested in your services. Can we chat?");
+  
   const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
 
   return (
