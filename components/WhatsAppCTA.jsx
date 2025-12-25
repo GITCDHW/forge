@@ -1,7 +1,7 @@
 import React from 'react';
 
 const WhatsAppCTA = () => {
-  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '9728725259';
+  const whatsappNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '9748725259';
   
   const whatsappMessage = encodeURIComponent("Hello FORGE! I'm interested in your services. Can we chat?");
   
